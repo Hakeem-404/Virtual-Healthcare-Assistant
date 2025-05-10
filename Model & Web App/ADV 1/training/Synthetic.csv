@@ -1,0 +1,101 @@
+Age,Gender,Ethnicity,Region,Socioeconomic Status,Symptom Description,Symptom Severity,Duration of Symptoms (days),Additional Symptoms,Chronic Condition,Allergies,Previous Visits,Potential Condition,Suggested Action,Insurance Status
+53,Female,African American,Rural,Low,"chest pain, muscle aches, back pain",7,8,fatigue,Diabetes,Dust,2,Anxiety,Visit Doctor,No
+55,Other,Other,Suburban,Low,"nausea, shortness of breath",5,13,fatigue,Hypertension,Dust,9,Food Poisoning,Take Home Care Measures,Yes
+64,Female,Caucasian,Suburban,Low,"dizziness, nausea, sore throat",5,16,None,Diabetes,Peanuts,10,Dehydration,Take Home Care Measures,Yes
+18,Other,Asian,Rural,Low,"back pain, mild headache",6,9,fever,Hypertension,Penicillin,8,Sciatica,Visit Doctor,No
+62,Other,African American,Suburban,High,muscle aches,3,21,None,Diabetes,Peanuts,10,Arthritis,Take Home Care Measures,Yes
+56,Other,Hispanic,Urban,Low,"fever and body aches, shortness of breath",1,22,nausea,None,Penicillin,2,Flu,Take Home Care Measures,Yes
+79,Female,Other,Urban,Middle,"shortness of breath, fever and body aches",8,28,fever,Diabetes,None,10,Asthma,Visit Doctor,No
+49,Other,African American,Urban,Low,back pain,7,10,fatigue,Hypertension,Peanuts,0,Sciatica,Visit Doctor,Yes
+48,Female,Hispanic,Rural,High,nausea,5,19,fatigue,None,None,2,Food Poisoning,Take Home Care Measures,No
+60,Other,Caucasian,Urban,Low,"shortness of breath, fatigue and weakness",10,28,nausea,Asthma,Dust,4,Asthma,Visit Doctor,Yes
+36,Female,Asian,Urban,Middle,"shortness of breath, fever and body aches, muscle aches",8,9,fatigue,None,Penicillin,3,Asthma,Visit Doctor,No
+74,Other,Caucasian,Urban,Middle,"sore throat, fatigue and weakness",8,23,None,Diabetes,Peanuts,9,Common Cold,Visit Doctor,Yes
+26,Female,Caucasian,Urban,Low,muscle aches,1,8,nausea,None,Penicillin,9,Arthritis,Take Home Care Measures,No
+65,Male,Hispanic,Rural,Low,"fatigue and weakness, mild headache",8,21,cough,None,None,1,Arthritis,Visit Doctor,Yes
+21,Other,Other,Urban,High,"dizziness, nausea, fever and body aches",2,18,None,Diabetes,None,10,Dehydration,Take Home Care Measures,No
+46,Male,Asian,Urban,Low,"back pain, dizziness, nausea",5,16,nausea,None,None,6,Sciatica,Take Home Care Measures,No
+74,Female,Hispanic,Suburban,Low,"fever and body aches, sore throat",9,17,nausea,Diabetes,Peanuts,5,Flu,Visit Doctor,No
+70,Female,Caucasian,Urban,Middle,"muscle aches, shortness of breath",3,30,cough,Diabetes,Penicillin,7,Arthritis,Take Home Care Measures,No
+63,Female,Other,Rural,Low,"dizziness, shortness of breath",9,11,fatigue,None,None,9,Dehydration,Visit Doctor,No
+55,Male,Asian,Urban,Low,"shortness of breath, back pain, dizziness",1,27,None,Diabetes,Pollen,9,Asthma,Take Home Care Measures,Yes
+65,Female,Hispanic,Rural,Middle,"fever and body aches, mild headache",1,21,nausea,Asthma,Dust,6,Flu,Take Home Care Measures,No
+70,Other,Asian,Suburban,Low,"muscle aches, sore throat, back pain",1,9,fever,Diabetes,Peanuts,1,Arthritis,Take Home Care Measures,No
+38,Male,Caucasian,Urban,Low,"muscle aches, sore throat, shortness of breath",5,5,fatigue,None,Pollen,1,Arthritis,Take Home Care Measures,No
+25,Male,Caucasian,Rural,Middle,shortness of breath,3,9,fatigue,Asthma,Dust,5,Asthma,Take Home Care Measures,No
+37,Male,Caucasian,Urban,Middle,"chest pain, fever and body aches",4,12,fever,Asthma,Dust,4,Anxiety,Take Home Care Measures,No
+64,Other,Hispanic,Rural,High,fever and body aches,6,19,fever,None,Penicillin,9,Flu,Visit Doctor,No
+40,Male,Caucasian,Urban,Middle,"back pain, fatigue and weakness",10,3,None,Asthma,Pollen,1,Sciatica,Visit Doctor,Yes
+44,Other,African American,Suburban,High,"fever and body aches, shortness of breath, muscle aches",7,6,fever,None,Peanuts,1,Flu,Visit Doctor,Yes
+80,Female,Asian,Suburban,Middle,"nausea, mild headache, shortness of breath",7,16,fatigue,Diabetes,Penicillin,1,Food Poisoning,Visit Doctor,No
+41,Other,African American,Suburban,High,chest pain,9,1,fatigue,Hypertension,Pollen,1,Anxiety,Visit Doctor,Yes
+26,Male,Caucasian,Rural,Low,fatigue and weakness,6,18,nausea,Asthma,Peanuts,10,Arthritis,Visit Doctor,No
+79,Other,Asian,Rural,Middle,"fever and body aches, back pain, mild headache",8,26,fatigue,Asthma,Pollen,2,Flu,Visit Doctor,Yes
+73,Female,Asian,Urban,Low,"shortness of breath, chest pain, back pain",4,6,nausea,None,Peanuts,6,Asthma,Take Home Care Measures,Yes
+77,Other,African American,Rural,Middle,"back pain, fatigue and weakness, shortness of breath",5,4,None,None,Pollen,2,Sciatica,Take Home Care Measures,Yes
+50,Other,Asian,Rural,High,"fatigue and weakness, sore throat",9,20,nausea,Diabetes,None,10,Arthritis,Visit Doctor,No
+25,Male,Asian,Rural,Middle,"sore throat, muscle aches",4,23,nausea,Diabetes,Dust,3,Common Cold,Take Home Care Measures,Yes
+49,Female,African American,Suburban,Low,fever and body aches,9,25,nausea,None,Pollen,10,Flu,Visit Doctor,No
+39,Female,Other,Rural,Low,"fever and body aches, muscle aches, sore throat",3,14,None,Diabetes,Dust,4,Flu,Take Home Care Measures,Yes
+32,Female,African American,Suburban,High,"shortness of breath, sore throat, back pain",5,6,cough,None,Pollen,9,Asthma,Take Home Care Measures,Yes
+72,Other,African American,Suburban,High,"fever and body aches, muscle aches",2,21,cough,None,Peanuts,1,Flu,Take Home Care Measures,Yes
+49,Female,African American,Urban,Middle,"shortness of breath, mild headache, chest pain",3,13,fatigue,Diabetes,Pollen,10,Asthma,Take Home Care Measures,No
+27,Male,Hispanic,Suburban,Middle,chest pain,1,13,fever,None,Dust,6,Anxiety,Take Home Care Measures,Yes
+19,Male,Other,Urban,Low,sore throat,1,18,fatigue,Asthma,None,8,Common Cold,Take Home Care Measures,No
+74,Other,Asian,Suburban,Low,"nausea, mild headache, fatigue and weakness",1,16,cough,Hypertension,Dust,10,Food Poisoning,Take Home Care Measures,No
+23,Male,Asian,Urban,Low,shortness of breath,4,18,fatigue,Asthma,Pollen,7,Asthma,Take Home Care Measures,No
+34,Other,Other,Rural,Middle,"fatigue and weakness, sore throat, nausea",4,28,fever,Hypertension,Pollen,8,Arthritis,Take Home Care Measures,Yes
+73,Other,Other,Urban,Middle,"mild headache, dizziness",1,23,fatigue,Hypertension,Peanuts,7,Migraine,Take Home Care Measures,Yes
+64,Female,Hispanic,Rural,Middle,"shortness of breath, dizziness, mild headache",3,25,fever,Diabetes,Pollen,9,Asthma,Take Home Care Measures,Yes
+39,Female,African American,Urban,High,mild headache,8,25,fever,Diabetes,Peanuts,5,Migraine,Visit Doctor,Yes
+48,Female,African American,Urban,High,"nausea, back pain, fever and body aches",9,29,cough,None,Dust,4,Food Poisoning,Visit Doctor,No
+71,Male,Other,Suburban,Middle,"nausea, chest pain, shortness of breath",10,13,fever,None,None,1,Food Poisoning,Visit Doctor,No
+72,Other,Asian,Urban,High,"dizziness, fatigue and weakness, fever and body aches",9,30,cough,Diabetes,None,3,Dehydration,Visit Doctor,Yes
+52,Female,Other,Suburban,Low,"back pain, chest pain",10,4,nausea,Hypertension,Penicillin,0,Sciatica,Visit Doctor,No
+30,Male,Other,Urban,Low,"muscle aches, fatigue and weakness",10,10,fever,Diabetes,None,9,Arthritis,Visit Doctor,No
+33,Female,Hispanic,Rural,Low,"fever and body aches, chest pain, muscle aches",10,30,fatigue,Diabetes,Penicillin,8,Flu,Visit Doctor,Yes
+36,Male,African American,Urban,High,"shortness of breath, chest pain, nausea",3,24,fever,Asthma,Dust,8,Asthma,Take Home Care Measures,Yes
+50,Other,Other,Suburban,Low,mild headache,10,4,nausea,None,Peanuts,6,Migraine,Visit Doctor,Yes
+31,Other,Other,Rural,High,"fatigue and weakness, nausea",9,21,None,None,Dust,10,Arthritis,Visit Doctor,No
+51,Other,Hispanic,Urban,Low,dizziness,9,15,None,Asthma,Pollen,3,Dehydration,Visit Doctor,Yes
+69,Male,Other,Rural,Low,"mild headache, fever and body aches, back pain",9,16,nausea,Hypertension,Peanuts,4,Migraine,Visit Doctor,Yes
+63,Female,Other,Rural,Middle,chest pain,10,13,fever,Asthma,Dust,3,Anxiety,Visit Doctor,Yes
+58,Female,African American,Suburban,Middle,"shortness of breath, nausea",6,15,cough,Hypertension,Peanuts,9,Asthma,Visit Doctor,Yes
+66,Female,Other,Rural,High,mild headache,5,6,nausea,None,Pollen,4,Migraine,Take Home Care Measures,No
+78,Female,Hispanic,Suburban,Middle,"chest pain, back pain, sore throat",9,17,nausea,Diabetes,None,4,Anxiety,Visit Doctor,Yes
+76,Other,African American,Suburban,High,"muscle aches, shortness of breath, back pain",2,21,cough,None,Penicillin,9,Arthritis,Take Home Care Measures,Yes
+29,Male,Hispanic,Rural,High,"chest pain, fever and body aches, fatigue and weakness",2,27,None,Asthma,None,2,Anxiety,Take Home Care Measures,Yes
+41,Other,African American,Suburban,Middle,fatigue and weakness,9,15,fatigue,Diabetes,Pollen,3,Arthritis,Visit Doctor,Yes
+65,Female,Hispanic,Rural,Low,"fatigue and weakness, muscle aches",9,14,fatigue,Hypertension,None,4,Arthritis,Visit Doctor,Yes
+56,Other,Other,Suburban,Middle,dizziness,3,1,fatigue,Hypertension,Penicillin,1,Dehydration,Take Home Care Measures,No
+60,Male,African American,Rural,Middle,"fever and body aches, muscle aches, back pain",2,4,fever,Hypertension,None,10,Flu,Take Home Care Measures,Yes
+73,Other,Hispanic,Rural,Middle,mild headache,10,28,cough,Diabetes,Peanuts,9,Migraine,Visit Doctor,Yes
+51,Male,Hispanic,Suburban,Middle,muscle aches,10,22,cough,None,Pollen,9,Arthritis,Visit Doctor,No
+80,Male,Hispanic,Rural,Low,dizziness,6,1,None,Asthma,Penicillin,0,Dehydration,Visit Doctor,No
+34,Other,Caucasian,Suburban,Middle,"back pain, nausea, chest pain",4,27,None,Asthma,None,9,Sciatica,Take Home Care Measures,Yes
+73,Male,Hispanic,Rural,High,"fever and body aches, shortness of breath, dizziness",6,23,cough,Asthma,None,0,Flu,Visit Doctor,No
+50,Other,African American,Urban,Middle,dizziness,2,2,fever,Asthma,Dust,9,Dehydration,Take Home Care Measures,Yes
+21,Female,Asian,Suburban,Middle,"fatigue and weakness, shortness of breath, sore throat",7,23,cough,None,Penicillin,1,Arthritis,Visit Doctor,No
+22,Male,Hispanic,Rural,Low,"dizziness, mild headache",4,28,cough,Hypertension,Pollen,8,Dehydration,Take Home Care Measures,Yes
+74,Other,Other,Suburban,Middle,"sore throat, fever and body aches, shortness of breath",7,1,nausea,Asthma,Pollen,7,Common Cold,Visit Doctor,No
+75,Male,Hispanic,Rural,Low,chest pain,6,6,fever,Hypertension,Peanuts,7,Anxiety,Visit Doctor,Yes
+79,Other,Hispanic,Suburban,High,"fever and body aches, mild headache",5,26,None,Asthma,None,1,Flu,Take Home Care Measures,No
+31,Other,Caucasian,Rural,Middle,sore throat,6,19,nausea,Asthma,Dust,5,Common Cold,Visit Doctor,No
+26,Female,Asian,Suburban,High,shortness of breath,4,23,nausea,Diabetes,Penicillin,10,Asthma,Take Home Care Measures,Yes
+80,Other,African American,Urban,Low,chest pain,5,17,None,Diabetes,Dust,9,Anxiety,Take Home Care Measures,No
+38,Other,Caucasian,Rural,Low,"sore throat, back pain, nausea",2,1,nausea,Hypertension,Pollen,5,Common Cold,Take Home Care Measures,No
+63,Male,Caucasian,Urban,High,fatigue and weakness,9,1,cough,None,Dust,0,Arthritis,Visit Doctor,No
+74,Female,Caucasian,Urban,Middle,chest pain,1,11,fatigue,None,Peanuts,3,Anxiety,Take Home Care Measures,No
+26,Female,Other,Suburban,Middle,"mild headache, shortness of breath, chest pain",8,24,fever,Hypertension,Pollen,8,Migraine,Visit Doctor,No
+24,Female,Asian,Rural,High,"dizziness, fatigue and weakness",7,12,fever,Diabetes,Peanuts,2,Dehydration,Visit Doctor,No
+36,Male,Other,Rural,High,"back pain, fever and body aches",8,6,nausea,Hypertension,Peanuts,1,Sciatica,Visit Doctor,No
+80,Other,Other,Rural,Low,"shortness of breath, back pain",3,5,None,Diabetes,Dust,9,Asthma,Take Home Care Measures,Yes
+43,Male,Other,Suburban,High,"fatigue and weakness, back pain, fever and body aches",8,21,fatigue,Hypertension,Peanuts,4,Arthritis,Visit Doctor,Yes
+49,Male,African American,Rural,Middle,"dizziness, sore throat",10,25,nausea,Diabetes,None,8,Dehydration,Visit Doctor,No
+42,Female,Other,Urban,Low,"chest pain, back pain",8,24,fatigue,Hypertension,Peanuts,10,Anxiety,Visit Doctor,No
+54,Male,Caucasian,Rural,High,"nausea, shortness of breath, fever and body aches",9,1,cough,Asthma,Peanuts,1,Food Poisoning,Visit Doctor,Yes
+20,Male,Other,Urban,Middle,mild headache,9,20,cough,Diabetes,Pollen,5,Migraine,Visit Doctor,No
+29,Male,Asian,Suburban,Middle,"back pain, mild headache",5,30,None,Hypertension,Peanuts,6,Sciatica,Take Home Care Measures,Yes
+67,Other,Hispanic,Suburban,Middle,"mild headache, dizziness",3,22,None,Diabetes,Penicillin,3,Migraine,Take Home Care Measures,Yes
+28,Other,Other,Rural,Middle,"back pain, fever and body aches, nausea",9,25,nausea,Hypertension,Pollen,5,Sciatica,Visit Doctor,No
+60,Other,Caucasian,Urban,Middle,fatigue and weakness,7,18,fatigue,Asthma,Peanuts,2,Arthritis,Visit Doctor,Yes
