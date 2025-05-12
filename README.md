@@ -138,11 +138,6 @@ The training process uses the following parameters:
 
 This application is for educational and research purposes only. It is not intended to replace professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
 
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 🙏 Acknowledgements
 
 - BioBERT by DMIS Lab for the pre-trained medical language model
-- [University of Greenwich](https://www.gre.ac.uk/) for the project guidance (COMP1921 Advanced Topics in Data Science and AI)
