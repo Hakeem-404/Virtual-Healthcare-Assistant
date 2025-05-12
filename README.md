@@ -67,7 +67,7 @@ http://localhost:5000
 
 
 🔧 Training Your Own Models
-We trained our models on a dataset of 3,600 medical records, including:
+I trained our models on a dataset of 3,600 medical records, including:
 
 1,500 records from the primary dataset (data.csv)
 2,100 additional records from synthetic datasets (synthetic.csv, synthetic1.csv, synthetic2.csv)
