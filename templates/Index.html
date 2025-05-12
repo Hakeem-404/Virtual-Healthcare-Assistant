@@ -1,0 +1,191 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Symptom Analyser</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .prediction-box {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            display: none;
+        }
+        .disclaimer {
+            font-size: 0.8em;
+            color: #666;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">Medical Symptom Analyser</h2>
+        
+        <form id="predictionForm" class="needs-validation" novalidate>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="symptoms" class="form-label">Symptoms Description</label>
+                    <textarea class="form-control" id="symptoms" placeholder ='E.g. I have headache and cough.  ' rows="3" required></textarea>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="age" class="form-label">Age</label>
+                            <input type="number" class="form-control" id="age" required min="0" max="120">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="gender" class="form-label">Gender</label>
+                            <select class="form-select" id="gender" required>
+                                <option value="">Select...</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <label for="ethnicity" class="form-label">Ethnicity</label>
+                    <select class="form-select" id="ethnicity" required>
+                        <option value="">Select...</option>
+                        <option value="African American">African American</option>
+                        <option value="Asian">Asian</option>
+                        <option value="Caucasian">Caucasian</option>
+                        <option value="Hispanic">Hispanic</option>
+                        <option value="Other">Others</option>
+                        <option value="Unknown">Prefer not to say</option>
+                    </select>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="region" class="form-label">Region</label>
+                    <select class="form-select" id="region" required>
+                        <option value="">Select...</option>
+                        <option value="Rural">Rural</option>
+                        <option value="Suburban">Suburban</option>
+                        <option value="Urban">Urban</option>
+                        <option value="Unknown">Prefer not to say</option>
+                    </select>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="socioeconomic_status" class="form-label">Socioeconomic Status</label>
+                    <select class="form-select" id="socioeconomic_status" required>
+                        <option value="">Select...</option>
+                        <option value="Low">Low</option>
+                        <option value="Middle">Middle</option>
+                        <option value="High">High</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <label for="severity" class="form-label">Symptom Severity (1-10)</label>
+                    <input type="number" class="form-control" placeholder="1 - mild, 10 - very severe" id="severity" required min="1" max="10">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="duration" class="form-label">Duration of symptoms (days)</label>
+                    <input type="number" class="form-control" id="duration" required min="0">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="insurance_status" class="form-label">Insurance Status</label>
+                    <select class="form-select" id="insurance_status" required>
+                        <option value="">Select...</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                        <option value="Unknown">Prefer not to say</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <label for="chronic_condition" class="form-label">Chronic Condition</label>
+                    <input type="text" class="form-control" placeholder="E.g. Asthma, Diabetes etc." id="chronic_condition" required>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="allergies" class="form-label">Allergies</label>
+                    <input type="text" class="form-control" placeholder="E.g. Pollen, Dust, Peanuts etc." id="allergies" required>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="previous_visits" class="form-label">Previous Visits (To the doctor)</label>
+                    <input type="number" class="form-control" id="previous_visits" required min="0">
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Analyse Symptoms</button>
+        </form>
+
+        <div id="predictionResult" class="prediction-box">
+            <h4>Analysis Results</h4>
+            <div class="alert alert-info">
+                <p><strong>Suggested Action:</strong> <span id="suggestedAction"></span></p>
+                <p><strong>Potential Condition:</strong> <span id="potentialCondition"></span></p>
+            </div>
+            <p class="disclaimer" id="disclaimer"></p>
+        </div>
+
+        <div id="errorMessage" class="alert alert-danger mt-3" style="display: none;"></div>
+    </div>
+
+    <script>
+        document.getElementById('predictionForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const formData = {
+                symptoms: document.getElementById('symptoms').value,
+                age: document.getElementById('age').value,
+                gender: document.getElementById('gender').value,
+                ethnicity: document.getElementById('ethnicity').value,
+                region: document.getElementById('region').value,
+                socioeconomic_status: document.getElementById('socioeconomic_status').value,
+                severity: document.getElementById('severity').value,
+                duration: document.getElementById('duration').value,
+                insurance_status: document.getElementById('insurance_status').value,
+                chronic_condition: document.getElementById('chronic_condition').value,
+                allergies: document.getElementById('allergies').value,
+                previous_visits: document.getElementById('previous_visits').value
+            };
+
+            try {
+                const response = await fetch('/predict', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(formData)
+                });
+
+                const result = await response.json();
+
+                if (result.error) {
+                    document.getElementById('errorMessage').textContent = result.error;
+                    document.getElementById('errorMessage').style.display = 'block';
+                    document.getElementById('predictionResult').style.display = 'none';
+                } else if (result.warning) {
+                    document.getElementById('errorMessage').textContent = result.warning;
+                    document.getElementById('errorMessage').style.display = 'block';
+                    document.getElementById('predictionResult').style.display = 'none';
+                } else {
+                    document.getElementById('suggestedAction').textContent = result.suggested_action;
+                    document.getElementById('potentialCondition').textContent = result.potential_condition;
+                    document.getElementById('disclaimer').textContent = result.disclaimer;
+                    document.getElementById('predictionResult').style.display = 'block';
+                    document.getElementById('errorMessage').style.display = 'none';
+                }
+            } catch (error) {
+                document.getElementById('errorMessage').textContent = 'An error occurred while processing your request.';
+                document.getElementById('errorMessage').style.display = 'block';
+                document.getElementById('predictionResult').style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
